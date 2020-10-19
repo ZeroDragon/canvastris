@@ -1,0 +1,33 @@
+<html>
+<meta charset="UTF-8">
+<head>
+  <title>Canvastris</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js"></script>
+</head>
+
+<body>
+  <script src="./online.js"></script>
+  <script src="./keys.js"></script>
+  <script src="./tetrisSong.js"></script>
+  <script src="./sfx.js"></script>
+  <script src="./player.js"></script>
+  <script src="./tetris.js"></script>
+  <div>
+    Ctr = rotate <br />
+    Shift = rotate backwards <br />
+    s = save piece for later <br />
+    Arrows = Movement <br />
+    p = pause <br />
+    m = toggle music <br />
+  </div>
+  <div>
+    <a href="javascript:reset();">(Re) Start Marathon</a>
+    <br/>
+    Player ID: <span id="gamerID"></span>
+    <br/>
+    <input id="remoteID"/> <a href="javascript:connect();">Connect to player</a>
+  </div>
+</body>
+
+</html>
